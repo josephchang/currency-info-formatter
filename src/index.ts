@@ -1,11 +1,11 @@
 import currencyData from './data';
 
 export enum CurrencyParts {
-  NUMBER,
-  INTEGER,
-  DECIMALS,
-  CODE,
-  SYMBOL,
+  NUMBER = 'number',
+  INTEGER = 'integer',
+  DECIMALS = 'decimals',
+  CODE = 'code',
+  SYMBOL = 'symbol',
 }
 
 export interface IFormatCurrencyOptions {
