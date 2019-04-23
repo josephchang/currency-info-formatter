@@ -2,14 +2,16 @@
   "name": "format-currency-to-parts",
   "version": "0.1.0",
   "description": "Format number into currency parts for UI",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
   "scripts": {
     "build": "tsc",
     "lint": "tslint -p tsconfig.json",
-    "test": "env NODE_ICU_DATA=node_modules/full-icu jest --config jestconfig.json"
+    "test": "env NODE_ICU_DATA=node_modules/full-icu jest --config jestconfig.json",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,7 @@
     "formatter",
     "parts"
   ],
-  "author": "josephchang",
+  "author": "joechang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/josephchang/format-currency-to-parts/issues"
