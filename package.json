@@ -1,0 +1,40 @@
+{
+  "name": "currency-info-formatter",
+  "version": "0.1.0",
+  "description": "Format number into currency parts for UI",
+  "main": "src/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "env NODE_ICU_DATA=node_modules/full-icu jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephchang/currency-info-formatter.git"
+  },
+  "keywords": [
+    "currency",
+    "format",
+    "formatter",
+    "parts"
+  ],
+  "author": "josephchang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephchang/currency-info-formatter/issues"
+  },
+  "homepage": "https://github.com/josephchang/currency-info-formatter#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "full-icu": "^1.2.1",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.4"
+  }
+}
