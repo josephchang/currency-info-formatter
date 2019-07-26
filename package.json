@@ -1,6 +1,6 @@
 {
   "name": "format-currency-to-parts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Format number into currency parts for UI",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
